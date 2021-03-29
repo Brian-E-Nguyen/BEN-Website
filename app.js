@@ -1,14 +1,16 @@
 const express = require('express');
+const ejsMate = require('ejs-mate');
 const path = require('path')
 const app = express();
 const PORT = 3000;
 
 // Middleware
+app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
-app.set('view engine', path.join(__dirname, '/views'));
+app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
-    res.render('home.ejs')
+    res.render('main/home.ejs')
 });
 
 app.listen(PORT, () => {
