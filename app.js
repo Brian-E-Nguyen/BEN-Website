@@ -9,6 +9,7 @@ app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+// Routes
 app.get('/', (req, res) => {
     res.render('main/home.ejs')
 });
