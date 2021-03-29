@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Brian-E-Nguyen/BEN-Website/issues"
   },
-  "homepage": "https://github.com/Brian-E-Nguyen/BEN-Website#readme"
+  "homepage": "https://github.com/Brian-E-Nguyen/BEN-Website",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
