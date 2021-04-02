@@ -19,6 +19,10 @@ app.get('/about-me', (req, res) => {
     res.render('main/about.ejs')
 });
 
+app.get('/portfolio', (req, res) => {
+    res.render('main/portfolio.ejs')
+});
+
 app.listen(PORT, () => {
     console.log(`SERVER STARTED ON PORT ${PORT}`);
 });
