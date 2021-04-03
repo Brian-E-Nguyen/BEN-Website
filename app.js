@@ -31,6 +31,10 @@ app.get('/photography', (req, res) => {
     res.render('main/photography.ejs')
 });
 
+app.all('*', (req, res) => {
+    res.render('error.ejs')
+});
+
 app.listen(PORT, () => {
     console.log(`SERVER STARTED ON PORT ${PORT}`);
 });
