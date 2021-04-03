@@ -23,6 +23,10 @@ app.get('/portfolio', (req, res) => {
     res.render('main/portfolio.ejs')
 });
 
+app.get('/resume', (req, res) => {
+    res.render('main/resume.ejs')
+});
+
 app.listen(PORT, () => {
     console.log(`SERVER STARTED ON PORT ${PORT}`);
 });
