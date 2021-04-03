@@ -27,6 +27,10 @@ app.get('/resume', (req, res) => {
     res.render('main/resume.ejs')
 });
 
+app.get('/photography', (req, res) => {
+    res.render('main/photography.ejs')
+});
+
 app.listen(PORT, () => {
     console.log(`SERVER STARTED ON PORT ${PORT}`);
 });
