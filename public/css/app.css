@@ -15,3 +15,9 @@ nav.bg-dark {
     color: white !important;
     border-bottom-color: white;
 }
+
+footer#end-footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
