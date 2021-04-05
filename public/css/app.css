@@ -22,7 +22,11 @@ footer#end-footer {
     text-align: center;
 }
 
-.footer-link {
+#footer-link-list {
+    padding-top: 10px;
+}
+
+.footer-link{
     color: rgba(255,255,255,.5);
 }
 
