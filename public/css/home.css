@@ -31,3 +31,7 @@ body {
     border: 1px solid white;
     margin: 2.5rem 10rem 2.5rem 10rem;
 }
+
+.nav-link {
+    color: white;
+}
