@@ -26,7 +26,16 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-
+/* PARALLAX SCROLLING */
+#parallax-2 {
+    position: relative;
+    min-height: 200px;
+    background: url('/img/DSC_0069.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 /* QUOTE */
 .blockquote {
     font-size: 1.75rem;
