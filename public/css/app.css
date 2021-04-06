@@ -1,3 +1,4 @@
+/* JUMBOTRON */
 .jumbotron {
     padding: 15rem 10rem;
     font-family: Lato;
@@ -15,6 +16,18 @@
     text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
 }
 
+/* PARALLAX SCROLLING */
+#parallax-1 {
+    position: relative;
+    min-height: 200px;
+    background: url('/img/DSC_8367.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* NAVBAR AND FOOTER */
 nav.bg-dark {
     background-color: black !important;
 }
