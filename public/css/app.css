@@ -27,6 +27,11 @@
     background-repeat: no-repeat;
 }
 
+/* QUOTE */
+.blockquote {
+    font-size: 1.75rem;
+}
+
 /* NAVBAR AND FOOTER */
 nav.bg-dark {
     background-color: black !important;
