@@ -83,3 +83,15 @@ footer#end-footer {
 .rounded-image {
     border-radius: 70%;
 }
+
+.project-image {
+    filter: brightness(50%);
+}
+
+.image-text-centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
