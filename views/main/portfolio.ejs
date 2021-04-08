@@ -1,14 +1,21 @@
 <% layout('layouts/main-boilerplate') %> 
-<div class="jumbotron">
+<div class="jumbotron" id="portfolio-jumbo">
     <div class="container">
-        <h1>Portfolio</h1>
+        <h1 class="jumbo-text">Portfolio</h1>
     </div>
 </div>
 
 <div class="container">
     <!-- TODO: insert giant GitHub logo that links to GitHub-->
-    <p>All of my work can be found on my GitHub page</p>
-    <a href="https://github.com/Brian-E-Nguyen">Here!</a>
+    <div class="text-center">
+        <a href="https://github.com/Brian-E-Nguyen">
+            <img src="/img/github_logo.png" alt="" width="200px">
+         </a>
+        <p>All of my work can be found on my GitHub page</p>
+        <a href="https://github.com/Brian-E-Nguyen">
+            <button class="btn btn-lg btn-dark">GitHub Profile</button>
+        </a>
+    </div>
     <h3 class="text-center">Some Example Work</h3>
     <!-- TODO: Create Bootstrap Cards for different projects -->
 </div>
