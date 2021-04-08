@@ -74,3 +74,8 @@ footer#end-footer {
     text-decoration: none;
     color: white;
 }
+
+/* IMAGES */
+.rounded-image {
+    border-radius: 70%;
+}
