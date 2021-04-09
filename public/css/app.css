@@ -52,12 +52,10 @@ nav.bg-dark {
 
 .nav-link {
     font-size: 1.5em;
-    border-bottom: 0.15rem solid transparent;
 }
 
 .nav-link:hover {
     color: white !important;
-    border-bottom-color: white;
 }
 
 footer#end-footer {
