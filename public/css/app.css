@@ -125,3 +125,7 @@ footer#end-footer {
 .project-description {
     font-size: 29px;
 }
+
+.project-description-sm {
+    font-size: 20px;
+}
