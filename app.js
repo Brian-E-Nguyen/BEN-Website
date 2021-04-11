@@ -33,15 +33,15 @@ app.get('/personal-website', (req, res) => {
 });
 
 app.get('/kraken-bracket', (req, res) => {
-    res.render('projects/yelpcamp.ejs')
+    res.render('projects/kraken-bracket.ejs')
 });
 
 app.get('/ee-381', (req, res) => {
-    res.render('projects/yelpcamp.ejs')
+    res.render('projects/ee-381.ejs')
 });
 
-app.get('/simds', (req, res) => {
-    res.render('projects/yelpcamp.ejs')
+app.get('/simd', (req, res) => {
+    res.render('projects/simd.ejs')
 });
 
 app.get('/resume', (req, res) => {
