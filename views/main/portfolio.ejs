@@ -1,14 +1,66 @@
-<% layout('layouts/boilerplate') %> 
-<div class="jumbotron">
+<% layout('layouts/main-boilerplate') %> 
+<div class="jumbotron" id="portfolio-jumbo">
     <div class="container">
-        <h1>Portfolio</h1>
+        <h1 class="jumbo-text">Portfolio</h1>
     </div>
 </div>
 
 <div class="container">
     <!-- TODO: insert giant GitHub logo that links to GitHub-->
-    <p>All of my work can be found on my GitHub page</p>
-    <a href="https://github.com/Brian-E-Nguyen">Here!</a>
+    <div class="text-center">
+        <a href="https://github.com/Brian-E-Nguyen">
+            <img src="/img/github_logo.png" alt="" width="200px">
+         </a>
+        <p>All of my work can be found on my GitHub page</p>
+        <a href="https://github.com/Brian-E-Nguyen">
+            <button class="btn btn-lg btn-dark">GitHub Profile</button>
+        </a>
+    </div>
     <h3 class="text-center">Some Example Work</h3>
-    <!-- TODO: Create Bootstrap Cards for different projects -->
+    <!-- 
+    TODO: 
+        - Create Bootstrap Cards for different projects 
+        - add buttons that link to projects
+    -->
+    <div class="text-center">
+        <div class="row">
+            <div class="col-lg-4 my-3">
+                <img src="/img/yelpcamp.jpg" width="350px" alt="" class="img-fluid img-thumbnail project-image">
+                <div class="image-text-centered">
+                    <h3>YelpCamp</h3>
+                    <button class="btn btn-outline-light">View Project</button>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <img src="/img/yelpcamp.jpg" width="350px" alt="" class="img-fluid img-thumbnail project-image">
+                <div class="image-text-centered">
+                    <h3>My Personal Website</h3>
+                    <button class="btn btn-outline-light">View Project</button>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <img src="/img/esports.jpg" width="350px" alt="" class="img-fluid img-thumbnail project-image">
+                <div class="image-text-centered">
+                    <h4>Senior Project: Kraken Bracket</h4>
+                    <button class="btn btn-outline-light">View Project</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 my-3">
+                <img src="/img/stats.jpg" width="350px" alt="" class="img-fluid img-thumbnail project-image">
+                <div class="image-text-centered">
+                    <h3>EE 381 - Probability and Stats</h3>
+                    <button class="btn btn-outline-light">View Project</button>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <img src="/img/motherboard.jpg" width="350px" alt="" class="img-fluid img-thumbnail project-image">
+                <div class="image-text-centered">
+                    <h4>SIMD Enhanced MIPS Instructions</h4>
+                    <button class="btn btn-outline-light">View Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

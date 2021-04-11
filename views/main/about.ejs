@@ -1,7 +1,7 @@
-<% layout('layouts/boilerplate') %> 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container" id="about-jumbo">
-        <h1>About Me</h1>
+<% layout('layouts/main-boilerplate') %> 
+<div id="about-jumbo" class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h1 class="jumbo-text">About Me</h1>
     </div>
 </div>
 
@@ -16,35 +16,70 @@
     </div>
 </div>
 
-<!-- TODO: Put parallax scrolling image -->
-<h1 class="display-3 text-center">So... who am I?</h1>
+<!-- Parallax 1 -->
+<div class="parallax" id="parallax-1"></div>
 
 <!-- Info Section -->
-<div class="container text-center">
-    <h2>The General Gist</h2>
-    <p>
-        My name is Brian Edison Nguyen. I am a currently a senior at California State University, Long Beach
-        studying
-        computer science. I love programming, volunteering, playing video games, photography / cinematography, and
-        so much more.
-    </p>
-    <hr>
+<div class="container my-3">
+    <!-- TODO: add circle profile pic -->
+    <div class="text-center">
+        <h1 class="display-3 text-center">So... who am I?</h1>
+        <img src="/img/new-profile-pic.jpg" width="350px" alt="" class="img-fluid img-thumbnail rounded-image">
+    </div>
+    <div class="mt-3">
+        <h2>The General Gist</h2>
+        <p>
+            My name is Brian E. Nguyen and I graduated from California State University, Long Beach in May 2020 with a bachelor's 
+            degree in computer science. I am currently seeking an internship or an entry-level position in full-stack development.
+        </p>
+        <p>
+            From the moment I have written my first script in Python, I knew that software development is the career choice for me. 
+            Software development has allowed me to challenge myself and to improve on my skills, not just in programming, 
+            but also on creativity and team-working. I hope to produce high-quality software and web applications that will be used and 
+            appreciated by many.
+        </p>
+        <p>
+            I am currently working at Code Ninjas, Cerritos as a coding instructor. Working here combines two of my passions: 
+            programming and working with kids. I have tutored students with Scratch, JavaScript, and Lua languages to help them 
+            build video games. In addition, I have developed and led my own coding camp that received 100% positive feedback from students.
+        </p>
+            I formerly served as the president for the Tzu Chi Collegiate Association at CSULB. This volunteering organization focuses 
+            on humanitarian aid, medicine, education, and more. I have devoted over 300 hours of my time serving this organization and 
+            it has been a life-changing experience for me. 
+        </p>
+        <p>
+            Other interests of mine include photography, drumming, video games, working out, and so much more. 
+        </p>
+    </div>  
+    <hr class="my-4">
     <div class="row">
         <!-- Programmer Info -->
-        <div class="col-lg-6">
+        <div class="col-lg-6 my-3">
             <h3>Programmer</h3>
             <p>
-                From the moment I wrote my first lines of code in my introductory programming course, I knew that
-                this is something that I wanted to do for a career. There is a vast pool of resources in computer
-                science that I am eager to discover, and that pool will only continue to grow. I am always motivated
-                to learn new things about it and to improve my skills.
+                I have 5 years of programming experience with many different languages, such as Java, Python, C#, HTML/CSS/JS, and with many 
+                libraries & frameworks.
+
+                To me, programming is like a puzzle. There are problems that are presented to me, whether it will be features on my 
+                application that I need to add or bugs that I encounter. These problems may take time to solve 
+                or maybe frustrate me; however, in the long run, solving these problems brings me excitement and a sense of 
+                accomplishment
             </p>
-            <!-- TODO: add button functionality -->
-            <button class="btn btn-md btn-primary">Projects</button>
+            <!-- TODO: Add more to this section later -->
+            <!-- <p>
+                Programming has not only helped me on my problem-solving skills, but also my team-working and creativity skills. From working
+                on my senior project, I have gained experience on what it was like to work in an actual software development company with my
+                team. I developed leadership skills
+            </p> -->
+            <a href="/portfolio">
+                <button class="btn btn-md btn-dark">Projects</button>
+            </a>
         </div>
-        <!-- TODO: Insert progamming image -->
-        <div class="col-lg-6">Test</div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center">
+            <img class="mt-5 img-fluid img-thumbnail" src="/img/DSC_0336.jpg" width="350px" alt="">
+        </div>
+        <!-- Photographer Info -->
+        <div class="col-lg-6 my-3">
             <h3>Photographer</h3>
             <p>
                 Capturing my life and others' through my lens has always been my favorite artform. There is a vast
@@ -52,21 +87,24 @@
                 DSLR and explore the world. I usually do this for fun, though I do offer paid services depending on
                 the situation.
             </p>
-            <!-- TODO: add button functionality -->
-            <button class="btn btn-md btn-primary">Photography</button>
+            <a href="/photography">
+                <button class="btn btn-md btn-dark">Photography</button>
+            </a>
         </div>
-        <!-- TODO: Insert photography image -->
-        <div class="col-lg-6">Test</div>
+        <div class="col-lg-6 text-center">
+            <img class="mt-5 img-fluid img-thumbnail" src="/img/DSC_0252.jpg" width="350px" alt="">
+        </div>
     </div>
-    <!-- Me vs. The World -->
-    <div>
-        <!-- TODO: Parallax scrolling image -->
-        <h1>Me vs. The World</h1>
-        <p>
-            From the moment I have written my first script in Python, I knew that software development is the career choice for me. 
-            Software development has allowed me to challenge myself and to improve on my skills, 
-            not just in programming, but also on creativity and team-working. I hope to produce high-quality software and 
-            web applications that will be used and appreciated by many. I am excited for what the future brings
-        </p>
-    </div>
+</div>
+<!-- Parallax 2 -->
+<div class="parallax" id="parallax-2"></div>
+<!-- Me vs. The World -->
+<div class="container mt-3">
+    <h2>Me vs. The World</h2>
+    <p>
+        I am always eager to learn new things every day, whether it will be related to programming, self-development, or things around me. I have
+        never been more motivated in my life to improve myself and and the lives of others through software development.
+        I hope that I can apply my many years of programming knowledge to develop applications that will make a difference in the world.
+    </p>
+</div>
 </div>

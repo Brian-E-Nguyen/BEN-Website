@@ -1,19 +1,65 @@
+/* JUMBOTRON */
 .jumbotron {
+    padding: 15rem 10rem;
+    font-family: Lato;
+    color: white;
+    background: no-repeat center;
     background-size: cover;
 }
 
+#about-jumbo {
+    background-image: url('/img/DSC_0019.jpg');
+}
+
+#portfolio-jumbo {
+    background-image: url('/img/DSC_0336.jpg');
+}
+
+#photography-jumbo {
+    background-image: url('/img/DSC_0113.jpg');
+}
+
+.jumbo-text {
+    font-size: 6rem;
+    text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+/* PARALLAX SCROLLING */
+#parallax-1 {
+    position: relative;
+    min-height: 200px;
+    background: url('/img/DSC_8367.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* PARALLAX SCROLLING */
+#parallax-2 {
+    position: relative;
+    min-height: 200px;
+    background: url('/img/DSC_0069.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/* QUOTE */
+.blockquote {
+    font-size: 1.75rem;
+}
+
+/* NAVBAR AND FOOTER */
 nav.bg-dark {
     background-color: black !important;
 }
 
 .nav-link {
     font-size: 1.5em;
-    border-bottom: 0.15rem solid transparent;
 }
 
 .nav-link:hover {
     color: white !important;
-    border-bottom-color: white;
 }
 
 footer#end-footer {
@@ -34,3 +80,20 @@ footer#end-footer {
     text-decoration: none;
     color: white;
 }
+
+/* IMAGES */
+.rounded-image {
+    border-radius: 70%;
+}
+
+.project-image {
+    filter: brightness(50%);
+}
+
+.image-text-centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
