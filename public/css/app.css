@@ -90,6 +90,18 @@ footer#end-footer {
     filter: brightness(50%);
 }
 
+.gallery-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.gallery-image:hover {
+    transition: .5s ease;
+    filter: grayscale(0%);
+}
+
 .image-text-centered {
     color: white;
     position: absolute;
