@@ -91,9 +91,10 @@ footer#end-footer {
 }
 
 .gallery-image {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
+    transition: .5s ease;
     filter: grayscale(100%);
 }
 
