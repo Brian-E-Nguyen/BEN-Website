@@ -23,7 +23,24 @@ app.get('/portfolio', (req, res) => {
     res.render('main/portfolio.ejs')
 });
 
+// Projects
 app.get('/yelpcamp', (req, res) => {
+    res.render('projects/yelpcamp.ejs')
+});
+
+app.get('/personal-website', (req, res) => {
+    res.render('projects/personal-website.ejs')
+});
+
+app.get('/kraken-bracket', (req, res) => {
+    res.render('projects/yelpcamp.ejs')
+});
+
+app.get('/ee-381', (req, res) => {
+    res.render('projects/yelpcamp.ejs')
+});
+
+app.get('/simds', (req, res) => {
     res.render('projects/yelpcamp.ejs')
 });
 
