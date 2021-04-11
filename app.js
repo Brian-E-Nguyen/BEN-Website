@@ -23,6 +23,10 @@ app.get('/portfolio', (req, res) => {
     res.render('main/portfolio.ejs')
 });
 
+app.get('/yelpcamp', (req, res) => {
+    res.render('projects/yelpcamp.ejs')
+});
+
 app.get('/resume', (req, res) => {
     res.render('main/resume.ejs')
 });

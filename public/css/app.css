@@ -110,3 +110,18 @@ footer#end-footer {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+.block-spacer{
+    height: 150px;
+}
+
+/* PROJECTS */
+.project-title {
+    font-size: 4.25vw;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.project-description {
+    font-size: 29px;
+}
