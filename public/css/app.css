@@ -19,9 +19,39 @@
     background-image: url('/img/DSC_0113.jpg');
 }
 
-.jumbo-text {
-    font-size: 6rem;
-    text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+@media (min-width: 0px) {
+    .jumbo-text {
+        font-size: 2rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 576px) {
+    .jumbo-text {
+        font-size: 3.5rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbo-text {
+        font-size: 5rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbo-text {
+        font-size: 6rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbo-text {
+        font-size: 5rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
 }
 
 /* PARALLAX SCROLLING */
