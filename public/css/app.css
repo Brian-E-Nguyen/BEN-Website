@@ -19,9 +19,41 @@
     background-image: url('/img/DSC_0113.jpg');
 }
 
-.jumbo-text {
-    font-size: 6rem;
-    text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+@media (min-width: 0px) {
+    .jumbo-text {
+        font-size: 2rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) {
+    .jumbo-text {
+        font-size: 5rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbo-text {
+        font-size: 5rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbo-text {
+        font-size: 6rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbo-text {
+        font-size: 5rem;
+        text-shadow: 0.1rem 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    }
 }
 
 /* PARALLAX SCROLLING */
@@ -110,3 +142,47 @@ footer#end-footer {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+.block-spacer{
+    height: 150px;
+}
+
+/* PROJECTS */
+.project-title {
+    font-size: 76px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.project-description {
+    font-size: 29px;
+}
+
+.project-description-sm {
+    font-size: 20px;
+}
+
+.project-note-header {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.next-project {
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.next-project a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+    padding-bottom: .05em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.next-project a:hover {
+    transition: .5s;
+    color: rgba(0, 0, 0);
+}
