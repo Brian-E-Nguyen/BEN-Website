@@ -161,3 +161,8 @@ footer#end-footer {
 .project-description-sm {
     font-size: 20px;
 }
+
+.project-note-header {
+    font-weight: 400;
+    font-style: italic;
+}
