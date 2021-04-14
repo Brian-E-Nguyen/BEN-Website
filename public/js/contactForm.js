@@ -19,8 +19,10 @@ contactForm.addEventListener('submit', (e) => {
         var data = formData[key];
         if(data === null || data.match(/^ *$/) !== null) {
             hasValidData = false;
+            break;
         }
     }
+    hasValidData = validateEmail(email.value);
     if (hasValidData) {
         let xhr = new XMLHttpRequest();
         xhr.open('POST', '/contact');
@@ -41,4 +43,4 @@ contactForm.addEventListener('submit', (e) => {
         xhr.send(JSON.stringify(formData));
     }
 });
-            
+
