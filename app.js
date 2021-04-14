@@ -9,6 +9,7 @@ app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(__dirname + "/public"));
+app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
@@ -55,6 +56,10 @@ app.get('/photography', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('main/contact.ejs')
 });
+
+app.post('/contact', (req, res) => {
+    console.log(req.body);
+})
 
 app.all('*', (req, res) => {
     res.render('error.ejs')
