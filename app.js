@@ -52,6 +52,10 @@ app.get('/photography', (req, res) => {
     res.render('main/photography.ejs')
 });
 
+app.get('/contact', (req, res) => {
+    res.render('main/contact.ejs')
+});
+
 app.all('*', (req, res) => {
     res.render('error.ejs')
 });
