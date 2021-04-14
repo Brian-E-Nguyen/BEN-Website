@@ -4,3 +4,46 @@
         <h1 class="jumbo-text">Contact</h1>
     </div>
 </div>
+
+<div class="container">
+     <!-- BEGIN FORM -->
+     <form method="POST">
+         <h3>Full Name *</h3>
+         <p>I would like to know who I'm speaking with</p>
+        <div class="form-row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="firstName" placeholder="John" required>
+                    <label for="firstName">
+                        <small class="form-text text-muted">First name</small>
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="lastName" placeholder="Doe" required>
+                        <label for="lastName">
+                            <small class="form-text text-muted">Last name</small>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="emailInput">
+                <h3>Email Address *</h3>
+            </label>
+            <input type="email" class="form-control" id="emailInput" placeholder="johndoe@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="message">
+                <h3>Your Message *</h3>
+            </label>
+            <textarea class="form-control" id="message" rows="5" required></textarea>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-lg btn-danger">Submit</button>
+        </div> 
+    </form> <!-- END FORM -->
+</div>
