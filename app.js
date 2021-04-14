@@ -2,7 +2,7 @@ const express = require('express');
 const ejsMate = require('ejs-mate');
 const path = require('path')
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.engine('ejs', ejsMate);
