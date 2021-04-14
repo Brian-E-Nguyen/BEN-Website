@@ -74,8 +74,8 @@ app.post('/contact', (req, res) => {
     const mailOptions = {
         from: req.body.email,
         to: process.env.EMAIL_ADDRESS,
-        subject: `Message from ${req.body.firstName + req.body.lastName}`,
-        text: req.body.message
+        subject: `Message from ${req.body.firstName + ' ' + req.body.lastName}`,
+        text: req.body.email + '\n' + req.body.message
     }
     transporter.sendMail(mailOptions, (err, info) => {
         if(err) {
