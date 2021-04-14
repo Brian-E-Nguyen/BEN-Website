@@ -14,6 +14,22 @@ contactForm.addEventListener('submit', (e) => {
         email: email.value,
         message: message.value
     }
-    console.log(formData)
+    let xhr = new XMLHttpRequest();
+    xhr.open('POST', '/contact-page');
+    xhr.setRequestHeader('content-type', 'application/json');
+    xhr.onload = function() {
+        console.log(xhr.responseText);
+        if(xhr.responseText == 'success') {
+            alert('Email sent');
+            firstName = '';
+            lastName = '';
+            email = '';
+            message = '';
+        }
+        else {
+            alert('Something went wrong')
+        }
+    }
+    xhr.send(JSON.stringify(formData));
 });
             
