@@ -6,6 +6,7 @@ const email = document.getElementById('emailInput');
 const message = document.getElementById('message');
 
 contactForm.addEventListener('submit', (e) => {
+    var hasValidData = true;
     // Prevents page from being refreshed
     e.preventDefault();
     var formData = {
@@ -14,22 +15,30 @@ contactForm.addEventListener('submit', (e) => {
         email: email.value,
         message: message.value
     }
-    let xhr = new XMLHttpRequest();
-    xhr.open('POST', '/contact');
-    xhr.setRequestHeader('content-type', 'application/json');
-    xhr.onload = function() {
-        console.log(xhr.responseText);
-        if(xhr.responseText == 'success') {
-            alert('Email sent');
-            firstName = '';
-            lastName = '';
-            email = '';
-            message = '';
-        }
-        else {
-            alert('Something went wrong')
+    for (const key in formData) {
+        var data = formData[key];
+        if(data === null || data.match(/^ *$/) !== null) {
+            hasValidData = false;
         }
     }
-    xhr.send(JSON.stringify(formData));
+    if (hasValidData) {
+        let xhr = new XMLHttpRequest();
+        xhr.open('POST', '/contact');
+        xhr.setRequestHeader('content-type', 'application/json');
+        xhr.onload = function() {
+            console.log(xhr.responseText);
+            if(xhr.responseText == 'success') {
+                alert('Email sent');
+                firstName = '';
+                lastName = '';
+                email = '';
+                message = '';
+            }
+            else {
+                alert('Something went wrong')
+            }
+        }
+        xhr.send(JSON.stringify(formData));
+    }
 });
             
