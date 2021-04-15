@@ -21,44 +21,44 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about-me', (req, res) => {
-    res.render('main/about.ejs')
+    res.render('main/about.ejs', {title: 'BEN | About Me'})
 });
 
 app.get('/portfolio', (req, res) => {
-    res.render('main/portfolio.ejs')
+    res.render('main/portfolio.ejs', {title: 'BEN | Portfolio'})
 });
 
 // Projects
 app.get('/yelpcamp', (req, res) => {
-    res.render('projects/yelpcamp.ejs')
+    res.render('projects/yelpcamp.ejs', {title: 'BEN | YelpCamp'})
 });
 
 app.get('/personal-website', (req, res) => {
-    res.render('projects/personal-website.ejs')
+    res.render('projects/personal-website.ejs', {title: 'BEN | My Website'})
 });
 
 app.get('/kraken-bracket', (req, res) => {
-    res.render('projects/kraken-bracket.ejs')
+    res.render('projects/kraken-bracket.ejs', {title: 'BEN | Kraken Bracket'})
 });
 
 app.get('/ee-381', (req, res) => {
-    res.render('projects/ee-381.ejs')
+    res.render('projects/ee-381.ejs', {title: 'BEN | EE-381'})
 });
 
 app.get('/simd', (req, res) => {
-    res.render('projects/simd.ejs')
+    res.render('projects/simd.ejs', {title: 'BEN | SIMD'})
 });
 
 app.get('/resume', (req, res) => {
-    res.render('main/resume.ejs')
+    res.render('main/resume.ejs', {title: 'BEN | Resume'})
 });
 
 app.get('/photography', (req, res) => {
-    res.render('main/photography.ejs')
+    res.render('main/photography.ejs', {title: 'BEN | Photography'})
 });
 
 app.get('/contact', (req, res) => {
-    res.render('main/contact.ejs')
+    res.render('main/contact.ejs', {title: 'BEN | Contact'})
 });
 
 app.post('/contact', (req, res) => {

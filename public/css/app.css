@@ -1,3 +1,7 @@
+h1, h2, h3, h4  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -12,7 +16,7 @@ a:hover {
 }
 
 #about-jumbo {
-    background-image: url('/img/DSC_0019.jpg');
+    background-image: url('/img/DSC_0219.jpg');
 }
 
 #portfolio-jumbo {
@@ -97,25 +101,32 @@ nav.bg-dark {
 .nav-link {
     transition: .5s;
     font-size: 1.5em;
+    color: white !important;
 }
 
 .nav-link:hover {
     transition: .5s;
-    color: white !important;
+    color: #0984e3 !important;
 }
 
-footer#end-footer {
-    background-color: black;
+div#end-footer {
+    background-color: rgb(27, 27, 27);
     color: white;
     text-align: center;
 }
 
-#footer-link-list {
-    padding-top: 10px;
+#footer-copyright {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    top: 50%;
+    font-size: 20px;
 }
 
 .footer-link a{
-    color: rgba(255,255,255,.5);
+    color: white;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -124,7 +135,7 @@ footer#end-footer {
 
 .footer-link a:hover {
     text-decoration: none;
-    color: white;
+    color: #0984e3;
     transition: .5s;
 }
 
@@ -207,15 +218,55 @@ footer#end-footer {
 }
 
 .footer-icon {
-    color: rgba(185, 185, 185, 0.5);
+    color: white;
     transition: .5s;
 }
 
 .footer-icon:hover {
     transition: 0.5s;
-    color: white;
+    color: #0984e3;
 }
 
 .light {
     border: 1px solid rgba(185, 185, 185, 0.5);
+}
+
+/* BUTTONS */
+.btn-blue {
+    border: 1px solid #0984e3;
+    background: none;
+    padding: 10px 25px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-blue:hover {
+    color: #0984e3;
+    background-color: #000000;
+    transition: 0.3s;
+    border-color: #000000;
+}
+
+.btn-blue-dark {
+    color: white;
+    border: 1px solid #0984e3;
+    background: none;
+    padding: 10px 25px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.btn-blue-dark:hover {
+    color: white;
+    background-color: #0984e3;
+    transition: 0.3s;
 }
