@@ -19,6 +19,10 @@
     background-image: url('/img/DSC_0113.jpg');
 }
 
+#contact-jumbo {
+    background-image: url('/img/DSC_0006.jpg');
+}
+
 @media (min-width: 0px) {
     .jumbo-text {
         font-size: 2rem;
@@ -185,4 +189,8 @@ footer#end-footer {
 .next-project a:hover {
     transition: .5s;
     color: rgba(0, 0, 0);
+}
+
+.sub-heading {
+    font-size: 25px;
 }
