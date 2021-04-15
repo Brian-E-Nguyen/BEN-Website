@@ -1,3 +1,7 @@
+a:hover {
+    text-decoration: none;
+}
+
 /* JUMBOTRON */
 .jumbotron {
     padding: 15rem 10rem;
@@ -108,13 +112,18 @@ footer#end-footer {
     padding-top: 10px;
 }
 
-.footer-link{
+.footer-link a{
     color: rgba(255,255,255,.5);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
 }
 
-.footer-link:hover {
+.footer-link a:hover {
     text-decoration: none;
     color: white;
+    transition: .5s;
 }
 
 /* IMAGES */
@@ -193,4 +202,18 @@ footer#end-footer {
 
 .sub-heading {
     font-size: 25px;
+}
+
+.footer-icon {
+    color: rgba(185, 185, 185, 0.5);
+    size: 150px;
+}
+
+.footer-icon:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.light {
+    border: 1px solid rgba(185, 185, 185, 0.5);
 }
