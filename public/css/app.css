@@ -225,3 +225,21 @@ div#end-footer {
 .light {
     border: 1px solid rgba(185, 185, 185, 0.5);
 }
+
+/* BUTTONS */
+.btn-blue {
+    border: 1px solid #0984e3;
+    background: none;
+    padding: 10px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-blue:hover {
+    color: white;
+    background-color: #0984e3;
+    transition: 0.3s;
+}
