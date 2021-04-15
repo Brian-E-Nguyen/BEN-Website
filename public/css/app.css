@@ -190,3 +190,7 @@ footer#end-footer {
     transition: .5s;
     color: rgba(0, 0, 0);
 }
+
+.sub-heading {
+    font-size: 25px;
+}
