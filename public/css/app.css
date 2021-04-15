@@ -95,10 +95,12 @@ nav.bg-dark {
 }
 
 .nav-link {
+    transition: .5s;
     font-size: 1.5em;
 }
 
 .nav-link:hover {
+    transition: .5s;
     color: white !important;
 }
 
@@ -206,7 +208,7 @@ footer#end-footer {
 
 .footer-icon {
     color: rgba(185, 185, 185, 0.5);
-    size: 150px;
+    transition: .5s;
 }
 
 .footer-icon:hover {
