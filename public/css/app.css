@@ -104,14 +104,20 @@ nav.bg-dark {
     color: white !important;
 }
 
-footer#end-footer {
-    background-color: black;
+div#end-footer {
+    background-color: rgb(27, 27, 27);
     color: white;
     text-align: center;
 }
 
-#footer-link-list {
-    padding-top: 10px;
+#footer-copyright {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    top: 50%;
+    font-size: 20px;
 }
 
 .footer-link a{
