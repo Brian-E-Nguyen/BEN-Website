@@ -243,6 +243,11 @@ div#end-footer {
     text-align: center;
 }
 
+.resume-block {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
 @media (min-width: 0px) {
     .page-title, .project-title {
         font-size: 10vw;
