@@ -35,36 +35,6 @@ a:hover {
     text-shadow: 0.25rem 0.05rem 0.1rem rgba(0, 0, 0, 1);
 }
 
-@media (min-width: 0px) {
-    .jumbo-text {
-        font-size: 2rem;
-    }
-}
-
-@media (min-width: 576px) {
-    .jumbo-text {
-        font-size: 5rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .jumbo-text {
-        font-size: 6rem;
-    }
-}
-
-@media (min-width: 992px) {
-    .jumbo-text {
-        font-size: 6rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .jumbo-text {
-        font-size: 5rem;
-    }
-}
-
 /* PARALLAX SCROLLING */
 #parallax-1 {
     position: relative;
@@ -176,39 +146,6 @@ div#end-footer {
     margin-bottom: 25px;
 }
 
-
-@media (min-width: 0px) {
-    .project-title {
-        font-size: 1.75rem;
-    }
-    .project-description {
-        font-size: 1.25rem;
-    }
-}
-
-@media (min-width: 576px) {
-    .project-title {
-        font-size: 3rem;
-    }
-    .project-description {
-        font-size: 2rem;
-    }
-}
-@media (min-width: 992px) {
-    .project-title {
-        font-size: 6rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .project-title {
-        font-size: 5rem;
-    }
-    .project-description {
-        font-size: 2.5rem;
-    }
-}
-
 .project-description-sm {
     font-size: 20px;
 }
@@ -236,10 +173,6 @@ div#end-footer {
 .next-project a:hover {
     transition: .5s;
     color: rgba(0, 0, 0);
-}
-
-.sub-heading {
-    font-size: 25px;
 }
 
 .footer-icon {
@@ -304,4 +237,64 @@ div#end-footer {
     color: white;
     background-color: #0984e3;
     transition: 0.3s;
+}
+
+.page-title {
+    text-align: center;
+}
+
+@media (min-width: 0px) {
+    .page-title, .project-title {
+        font-size: 10vw;
+    }
+    .project-description {
+        font-size: 1.75rem;
+    }
+    .sub-heading {
+        font-size: 4vw;
+    }
+    .jumbo-text {
+        font-size: 8vw;
+    }
+}
+
+@media (min-width: 576px) {
+    .page-title, .project-title {
+        font-size: 6vw;
+    }
+    .project-description {
+        font-size: 3vw;
+    }
+    .sub-heading {
+        font-size: 3vw;
+    }
+    .jumbo-text {
+        font-size: 7vw;
+    }
+}
+@media (min-width: 992px) {
+    .page-title, .project-title {
+        font-size: 5vw;
+    }
+    .sub-heading {
+        font-size: 2vw;
+    }
+    .jumbo-text {
+        font-size: 6vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-title, .project-title {
+        font-size: 4vw;
+    }
+    .project-description {
+        font-size: 2vw;
+    }
+    .sub-heading {
+        font-size: 1.5vw;
+    }
+    .jumbo-text {
+        font-size: 5vw;
+    }
 }
