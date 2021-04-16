@@ -244,14 +244,11 @@ div#end-footer {
 }
 
 @media (min-width: 0px) {
-    .page-title {
+    .page-title, .project-title {
         font-size: 10vw;
     }
-    .project-title {
-        font-size: 1.75rem;
-    }
     .project-description {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
     .sub-heading {
         font-size: 4vw;
@@ -262,14 +259,11 @@ div#end-footer {
 }
 
 @media (min-width: 576px) {
-    .page-title {
+    .page-title, .project-title {
         font-size: 6vw;
     }
-    .project-title {
-        font-size: 3rem;
-    }
     .project-description {
-        font-size: 2rem;
+        font-size: 3vw;
     }
     .sub-heading {
         font-size: 3vw;
@@ -279,11 +273,8 @@ div#end-footer {
     }
 }
 @media (min-width: 992px) {
-    .page-title {
+    .page-title, .project-title {
         font-size: 5vw;
-    }
-    .project-title {
-        font-size: 6rem;
     }
     .sub-heading {
         font-size: 2vw;
@@ -294,14 +285,11 @@ div#end-footer {
 }
 
 @media (min-width: 1200px) {
-    .page-title {
+    .page-title, .project-title {
         font-size: 4vw;
     }
-    .project-title {
-        font-size: 5rem;
-    }
     .project-description {
-        font-size: 2.5rem;
+        font-size: 2vw;
     }
     .sub-heading {
         font-size: 1.5vw;
