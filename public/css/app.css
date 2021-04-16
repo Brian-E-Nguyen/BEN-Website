@@ -172,13 +172,41 @@ div#end-footer {
 
 /* PROJECTS */
 .project-title {
-    font-size: 76px;
     font-weight: 100;
     margin-bottom: 25px;
 }
 
-.project-description {
-    font-size: 29px;
+
+@media (min-width: 0px) {
+    .project-title {
+        font-size: 1.75rem;
+    }
+    .project-description {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .project-title {
+        font-size: 3rem;
+    }
+    .project-description {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 992px) {
+    .project-title {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .project-title {
+        font-size: 5rem;
+    }
+    .project-description {
+        font-size: 2.5rem;
+    }
 }
 
 .project-description-sm {
