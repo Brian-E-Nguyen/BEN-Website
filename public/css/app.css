@@ -27,6 +27,10 @@ a:hover {
     background-image: url('/img/DSC_0113.jpg');
 }
 
+#resume-jumbo {
+    background-image: url('/img/DSC_0175.jpg');
+}
+
 #contact-jumbo {
     background-image: url('/img/DSC_0006.jpg');
 }
@@ -241,6 +245,11 @@ div#end-footer {
 
 .page-title {
     text-align: center;
+}
+
+.resume-block {
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 @media (min-width: 0px) {
