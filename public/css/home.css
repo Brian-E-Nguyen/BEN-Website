@@ -5,13 +5,14 @@ body {
     /* prevents repeat image */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 #main-content {
     text-align: center;
-    color: white;
     padding-top: 7%;
     padding-bottom: 10%;
 }
@@ -22,8 +23,33 @@ body {
         0px 8px 10px rgba(0, 0, 0, 0.7);
 }
 
+#home-navbar {
+    padding-top: 30px;
+}
+
+.navlink {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.navlink:hover {
+    color: #0984e3;
+    transition: 0.5s;
+    text-decoration: none;
+    border-bottom: 1px solid #0984e3;
+}
+
+.active {
+    color: #0984e3;
+    border-bottom: 1px solid #0984e3;
+}
+
 .description {
-    font-size: 2rem;
     font-weight: lighter;
 }
 
@@ -53,4 +79,40 @@ body {
     color: white;
     background-color: #0984e3;
     transition: 0.3s;
+}
+
+@media (min-width: 576px) {
+    .navlink {
+        font-size: 2.2vw;
+    }
+    #name {
+        font-size: 8.5vw;
+    }
+    .description {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .navlink {
+        font-size: 2vw;
+    }
+    #name {
+        font-size: 6vw;
+    }
+    .description {
+        font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navlink {
+        font-size: 1vw;
+    }
+    #name {
+        font-size: 5vw;
+    }
+    .description {
+        font-size: 2vw;
+    }
 }
