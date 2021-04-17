@@ -162,6 +162,7 @@ div#end-footer {
 .next-project {
     font-weight: 300;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .next-project a {
