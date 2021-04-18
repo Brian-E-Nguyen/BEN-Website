@@ -7,6 +7,7 @@ const ejsMate = require('ejs-mate');
 const nodemailer = require('nodemailer');
 const path = require('path');
 const app = express();
+const mainView = require('./controllers/mainView')
 const PORT = process.env.PORT || CONFIG.localPort;
 
 // Middleware
@@ -17,9 +18,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.json());
 
 // Routes
-app.get('/', (req, res) => {
-    res.render('main/home.ejs')
-});
+app.get('/', mainView.home);
 
 app.get('/about-me', (req, res) => {
     res.render('main/about.ejs', {title: 'BEN | About Me'})
