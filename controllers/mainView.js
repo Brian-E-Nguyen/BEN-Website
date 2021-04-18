@@ -2,22 +2,22 @@ const nodemailer = require('nodemailer');
 const CONFIG = require('../config.json');
 
 module.exports.home = (req, res) => {
-    res.render(CONFIG.home.route, {title: CONFIG.home.title})
+    res.render(CONFIG.main.home.route, {title: CONFIG.main.home.title})
 }
 module.exports.about = (req, res) => {
-    res.render(CONFIG.about.route, {title: CONFIG.about.title})
+    res.render(CONFIG.main.about.route, {title: CONFIG.main.about.title})
 }
 module.exports.portfolio = (req, res) => {
-    res.render(CONFIG.portfolio.route, {title: CONFIG.portfolio.title})
+    res.render(CONFIG.main.portfolio.route, {title: CONFIG.main.portfolio.title})
 }
 module.exports.resume = (req, res) => {
-    res.render(CONFIG.resume.route, {title: CONFIG.resume.title})
+    res.render(CONFIG.main.resume.route, {title: CONFIG.main.resume.title})
 }
 module.exports.photography = (req, res) => {
-    res.render(CONFIG.photography.route, {title: CONFIG.photography.title})
+    res.render(CONFIG.main.photography.route, {title: CONFIG.main.photography.title})
 }
 module.exports.contact = (req, res) => {
-    res.render(CONFIG.contact.route, {title: CONFIG.contact.title})
+    res.render(CONFIG.main.contact.route, {title: CONFIG.main.contact.title})
 }
 module.exports.contactFormPost = (req, res) => {
     const transporter = nodemailer.createTransport({
