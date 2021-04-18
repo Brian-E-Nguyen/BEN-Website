@@ -1,0 +1,55 @@
+{
+    "localPort": 3000,
+    "main": {
+        "home": {
+            "route": "main/home.ejs",
+            "title": "Brian E. Nguyen"
+        },
+        "about": {
+            "route": "main/about.ejs",
+            "title": "BEN | About Me"
+        },
+        "portfolio": {
+            "route": "main/portfolio.ejs",
+            "title": "BEN | Portfolio"
+        },
+        "resume": {
+            "route": "main/resume.ejs",
+            "title": "BEN | Resume"
+        },
+        "photography": {
+            "route": "main/photography.ejs",
+            "title": "BEN | Photography"
+        },
+        "contact": {
+            "route": "main/contact.ejs",
+            "title": "BEN | Contact"
+        }
+    },
+    "project": {
+        "yelpcamp": {
+            "route": "projects/yelpcamp.ejs",
+            "title": "BEN | YelpCamp"
+        },
+        "personalwebsite": {
+            "route": "projects/personal-website.ejs",
+            "title": "BEN | My Website"
+        },
+        "krakenbracket": {
+            "route": "projects/kraken-bracket.ejs",
+            "title": "BEN | Kraken Bracket"
+        },
+        "ee381": {
+            "route": "projects/ee-381.ejs",
+            "title": "BEN | EE-381"
+        },
+        "simd": {
+            "route": "projects/simd.ejs",
+            "title": "BEN | SIMD"
+        }
+    },
+    "error": {
+        "route": "error.ejs",
+        "title": "Error!"
+    }
+}
