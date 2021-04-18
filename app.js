@@ -1,12 +1,13 @@
 if(process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
 }
+const CONFIG = require('./config.json');
 const express = require('express');
 const ejsMate = require('ejs-mate');
 const nodemailer = require('nodemailer');
 const path = require('path');
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || CONFIG.localPort;
 
 // Middleware
 app.engine('ejs', ejsMate);
