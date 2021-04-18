@@ -1,3 +1,24 @@
 {
-    "localPort": 3000
+    "localPort": 3000,
+    "home": "main/home.ejs",
+    "about": {
+        "route": "main/about.ejs",
+        "title": "BEN | About Me"
+    },
+    "portfolio": {
+        "route": "main/portfolio.ejs",
+        "title": "BEN | Portfolio"
+    },
+    "resume": {
+        "route": "main/resume.ejs",
+        "title": "BEN | Resume"
+    },
+    "photography": {
+        "route": "main/photography.ejs",
+        "title": "BEN | Photography"
+    },
+    "contact": {
+        "route": "main/contact.ejs",
+        "title": "BEN | Contact"
+    }
 }
