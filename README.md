@@ -28,6 +28,18 @@ My personal website / portfolio that showcases my programming & photography work
 * [Lightbox for Bootstrap](https://ashleydw.github.io/lightbox/) - lightbox module for Bootstrap that supports images, YouTube videos, and galleries
 * [Nodemailer](https://nodemailer.com/about/) - module for Node.js applications to allow easy email sending
 
+## Installation / Usage
+
+```
+$ git clone https://github.com/Brian-E-Nguyen/BEN-Website.git
+
+$ cd /BEN-Website
+
+$ npm install
+
+$ node app.js
+```
+
 ## Images
 
 ![home](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/home.png?raw=true)
