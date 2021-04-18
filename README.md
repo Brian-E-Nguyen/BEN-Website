@@ -27,3 +27,13 @@ My personal website / portfolio that showcases my programming & photography work
 * [Fontawesome](https://fontawesome.com/) - vector icons and social logos
 * [Lightbox for Bootstrap](https://ashleydw.github.io/lightbox/) - lightbox module for Bootstrap that supports images, YouTube videos, and galleries
 * [Nodemailer](https://nodemailer.com/about/) - module for Node.js applications to allow easy email sending
+
+## Images
+
+![home](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/home.png?raw=true)
+![home2](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/home2.png?raw=true)
+![aboutme](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/about1.png?raw=true)
+![portfolio](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/portfolio.png?raw=true)
+![photography](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/photography.png?raw=true)
+![contact](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/contact.png?raw=true)
+![mobile](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/mobile.png?raw=true)
