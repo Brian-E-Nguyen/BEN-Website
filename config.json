@@ -23,5 +23,25 @@
     "contact": {
         "route": "main/contact.ejs",
         "title": "BEN | Contact"
+    },
+    "yelpcamp": {
+        "route": "projects/yelpcamp.ejs",
+        "title": "BEN | YelpCamp"
+    },
+    "personalwebsite": {
+        "route": "projects/personal-website.ejs",
+        "title": "BEN | My Website"
+    },
+    "krakenbracket": {
+        "route": "projects/kraken-bracket.ejs",
+        "title": "BEN | Kraken Bracket"
+    },
+    "ee381": {
+        "route": "projects/ee-381.ejs",
+        "title": "BEN | EE-381"
+    },
+    "simd": {
+        "route": "projects/simd.ejs",
+        "title": "BEN | SIMD"
     }
 }
