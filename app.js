@@ -6,8 +6,9 @@ const express = require('express');
 const ejsMate = require('ejs-mate');
 const path = require('path');
 const app = express();
-const mainView = require('./controllers/mainView')
-const projectView = require('./controllers/projectView')
+const mainView = require('./controllers/mainView');
+const projectView = require('./controllers/projectView');
+const errorView = require('./controllers/errorView');
 const PORT = process.env.PORT || CONFIG.localPort;
 
 // Middleware
@@ -19,33 +20,22 @@ app.use(express.json());
 
 // Main Views
 app.get('/', mainView.home);
-
 app.get('/about-me', mainView.about);
-
 app.get('/portfolio', mainView.portfolio);
-
 app.get('/resume', mainView.resume);
-
 app.get('/photography', mainView.photography);
-
 app.get('/contact', mainView.contact);
-
 app.post('/contact', mainView.contactFormPost)
 
-// Projects
+// Project Views
 app.get('/yelpcamp', projectView.yelpcamp);
-
 app.get('/personal-website', projectView.personalwebsite);
-
 app.get('/kraken-bracket', projectView.krakenbracket);
-
 app.get('/ee-381', projectView.ee381);
-
 app.get('/simd', projectView.simd);
 
-app.all('*', (req, res) => {
-    res.render('error.ejs', {title: 'Error!'})
-});
+// Error Views
+app.all('*', errorView.error);
 
 app.listen(PORT, () => {
     console.log(`SERVER STARTED ON PORT ${PORT}`);
