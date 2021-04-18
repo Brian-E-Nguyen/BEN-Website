@@ -43,12 +43,11 @@ $ node app.js
 ## Images
 
 ![home](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/home.png?raw=true)
-![home2](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/home2.png?raw=true)
 ![aboutme](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/about1.png?raw=true)
 ![portfolio](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/portfolio.png?raw=true)
 ![photography](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/photography.png?raw=true)
 ![contact](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/contact.png?raw=true)
-![mobile](https://github.com/Brian-E-Nguyen/BEN-Website/blob/readme/readme-img/mobile.png?raw=true)
+
 
 ## Personal Notes
 
