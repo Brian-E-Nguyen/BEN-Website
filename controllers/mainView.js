@@ -11,7 +11,7 @@ module.exports.portfolio = (req, res) => {
     res.render(CONFIG.portfolio.route, {title: CONFIG.portfolio.title})
 }
 module.exports.resume = (req, res) => {
-    res.render(CONFIG.resume.route, {title: 'BEN | Resume'})
+    res.render(CONFIG.resume.route, {title: CONFIG.resume.title})
 }
 module.exports.photography = (req, res) => {
     res.render(CONFIG.photography.route, {title: CONFIG.photography.title})
