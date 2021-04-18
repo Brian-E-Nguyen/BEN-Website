@@ -43,5 +43,9 @@
     "simd": {
         "route": "projects/simd.ejs",
         "title": "BEN | SIMD"
+    },
+    "error": {
+        "route": "error.ejs",
+        "title": "Error!"
     }
 }
