@@ -1,6 +1,9 @@
 {
     "localPort": 3000,
-    "home": "main/home.ejs",
+    "home": {
+        "route": "main/home.ejs",
+        "title": "Brian E. Nguyen"
+    },
     "about": {
         "route": "main/about.ejs",
         "title": "BEN | About Me"

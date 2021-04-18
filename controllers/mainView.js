@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const CONFIG = require('../config.json');
 
 module.exports.home = (req, res) => {
-    res.render(CONFIG.home)
+    res.render(CONFIG.home.route, {title: CONFIG.home.title})
 }
 module.exports.about = (req, res) => {
     res.render(CONFIG.about.route, {title: CONFIG.about.title})
