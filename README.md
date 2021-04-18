@@ -16,8 +16,9 @@ My personal website / portfolio that showcases my programming & photography work
     * Senior Project: Kraken Bracket
     * EE 381 - Probability and Stats
     * SIMD Enhanced MIPS Instructions
-4. Photography
-5. Contact
+4. Resume
+5. Photography
+6. Contact
 
 ### Personal Notes
 
