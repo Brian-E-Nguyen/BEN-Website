@@ -1,23 +1,25 @@
 const nodemailer = require('nodemailer');
 const CONFIG = require('../config.json');
 
+const main = CONFIG.main;
+
 module.exports.home = (req, res) => {
-    res.render(CONFIG.main.home.route, {title: CONFIG.main.home.title})
+    res.render(main.home.route, {title: main.home.title})
 }
 module.exports.about = (req, res) => {
-    res.render(CONFIG.main.about.route, {title: CONFIG.main.about.title})
+    res.render(main.about.route, {title: main.about.title})
 }
 module.exports.portfolio = (req, res) => {
-    res.render(CONFIG.main.portfolio.route, {title: CONFIG.main.portfolio.title})
+    res.render(main.portfolio.route, {title: main.portfolio.title})
 }
 module.exports.resume = (req, res) => {
-    res.render(CONFIG.main.resume.route, {title: CONFIG.main.resume.title})
+    res.render(main.resume.route, {title: main.resume.title})
 }
 module.exports.photography = (req, res) => {
-    res.render(CONFIG.main.photography.route, {title: CONFIG.main.photography.title})
+    res.render(main.photography.route, {title: main.photography.title})
 }
 module.exports.contact = (req, res) => {
-    res.render(CONFIG.main.contact.route, {title: CONFIG.main.contact.title})
+    res.render(main.contact.route, {title: main.contact.title})
 }
 module.exports.contactFormPost = (req, res) => {
     const transporter = nodemailer.createTransport({
@@ -36,11 +38,9 @@ module.exports.contactFormPost = (req, res) => {
     }
     transporter.sendMail(mailOptions, (err, info) => {
         if(err) {
-            console.log(err);
             res.send('error')
         }
         else {
-            console.log('Email sent: ' + info.response);
             res.send('success')
         }
     })
