@@ -264,6 +264,9 @@ div#end-footer {
         font-size: 4vw;
     }
     .jumbo-text {
+        font-size: 12.5vw;
+    }
+    .jumbo-text#photography-text {
         font-size: 8vw;
     }
 }
@@ -278,8 +281,9 @@ div#end-footer {
     .sub-heading {
         font-size: 3vw;
     }
-    .jumbo-text {
-        font-size: 7vw;
+    .jumbo-text, .jumbo-text#photography-text {
+        font-size: 8vw;
+        text-align: center;
     }
 }
 @media (min-width: 992px) {
@@ -289,8 +293,9 @@ div#end-footer {
     .sub-heading {
         font-size: 2vw;
     }
-    .jumbo-text {
+    .jumbo-text, .jumbo-text#photography-text {
         font-size: 6vw;
+        text-align: left;
     }
 }
 
@@ -304,7 +309,7 @@ div#end-footer {
     .sub-heading {
         font-size: 1.5vw;
     }
-    .jumbo-text {
-        font-size: 5vw;
+    .jumbo-text, .jumbo-text#photography-text {
+        font-size: 5.5vw;
     }
 }
