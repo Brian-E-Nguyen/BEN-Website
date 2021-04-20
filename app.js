@@ -20,35 +20,19 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.json());
 
 // Security
-const scriptSrcUrls = [
-    'https://code.jquery.com/',
-    'https://maxcdn.bootstrapcdn.com/',
-    'https://cdnjs.cloudflare.com/',
-    'https://kit.fontawesome.com/',
-]
-const styleSrcUrls = [
-    'https://cdnjs.cloudflare.com/',
-]
-const connectSrcUrls = [
-    'https://ka-f.fontawesome.com/'
-]
-const fontSrcUrls = [
-    'https://ka-f.fontawesome.com/'
-];
-
 app.use(
     helmet.contentSecurityPolicy({
         directives: {
             defaultSrc: [],
-            scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
-            styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
-            connectSrc: ["'self'", ...connectSrcUrls],
+            scriptSrc: ["'unsafe-inline'", "'self'", ...CONFIG.scriptSrcUrls],
+            styleSrc: ["'self'", "'unsafe-inline'", ...CONFIG.styleSrcUrls],
+            connectSrc: ["'self'", ...CONFIG.connectSrcUrls],
             imgSrc: [
                 "'self'",
                 "blob:",
                 "data:"
             ],
-            fontSrc: ["'self'", ...fontSrcUrls],
+            fontSrc: ["'self'", ...CONFIG.fontSrcUrls],
         }
     })
 );
