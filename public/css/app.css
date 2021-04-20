@@ -43,7 +43,7 @@ a:hover {
 #parallax-1 {
     position: relative;
     min-height: 200px;
-    background: url('/img/BEN_8367.jpg');
+    background: url('/img/BEN_huntingtonbeach.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ a:hover {
 #parallax-2 {
     position: relative;
     min-height: 200px;
-    background: url('/img/BEN_0069.jpg');
+    background: url('/img/BEN_vegasstrip.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
