@@ -16,23 +16,23 @@ a:hover {
 }
 
 #about-jumbo {
-    background-image: url('/img/DSC_0219.jpg');
+    background-image: url('/img/jumbotron/BEN_weekofwelcome.jpg');
 }
 
 #portfolio-jumbo {
-    background-image: url('/img/DSC_0336.jpg');
+    background-image: url('/img/jumbotron/BEN_code.jpg');
 }
 
 #photography-jumbo {
-    background-image: url('/img/DSC_0113.jpg');
+    background-image: url('/img/jumbotron/BEN_0113.jpg');
 }
 
 #resume-jumbo {
-    background-image: url('/img/DSC_0175.jpg');
+    background-image: url('/img/jumbotron/BEN_sunsetstare.jpg');
 }
 
 #contact-jumbo {
-    background-image: url('/img/DSC_0006.jpg');
+    background-image: url('/img/jumbotron/BEN_queenmary.jpg');
 }
 
 .jumbo-text {
@@ -43,7 +43,7 @@ a:hover {
 #parallax-1 {
     position: relative;
     min-height: 200px;
-    background: url('/img/DSC_8367.jpg');
+    background: url('/img/BEN_8367.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ a:hover {
 #parallax-2 {
     position: relative;
     min-height: 200px;
-    background: url('/img/DSC_0069.jpg');
+    background: url('/img/BEN_0069.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
