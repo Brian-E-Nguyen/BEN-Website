@@ -22,13 +22,36 @@ app.use(express.json());
 // Security
 const scriptSrcUrls = [
     'https://code.jquery.com/',
-    'https://maxcdn.bootstrapcdn.com/'
-]
-
-const styleSrcUrls = [
+    'https://maxcdn.bootstrapcdn.com/',
+    'https://cdnjs.cloudflare.com/',
     'https://kit.fontawesome.com/',
-    'https://cdnjs.cloudflare.com/'
 ]
+const styleSrcUrls = [
+    'https://cdnjs.cloudflare.com/',
+]
+const connectSrcUrls = [
+    'https://ka-f.fontawesome.com/'
+]
+const fontSrcUrls = [
+    'https://ka-f.fontawesome.com/'
+];
+
+app.use(
+    helmet.contentSecurityPolicy({
+        directives: {
+            defaultSrc: [],
+            scriptSrc: ["'unsafe-inline'", "'self'", ...scriptSrcUrls],
+            styleSrc: ["'self'", "'unsafe-inline'", ...styleSrcUrls],
+            connectSrc: ["'self'", ...connectSrcUrls],
+            imgSrc: [
+                "'self'",
+                "blob:",
+                "data:"
+            ],
+            fontSrc: ["'self'", ...fontSrcUrls],
+        }
+    })
+);
 
 // Main Views
 app.get('/', mainView.home);
