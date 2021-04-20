@@ -313,3 +313,13 @@ div#end-footer {
         font-size: 5.5vw;
     }
 }
+
+a#portfolio-github {
+    color: black;
+    transition: 0.5s;
+}
+
+a#portfolio-github:hover {
+    color: #0984e3;
+    transition: 0.5s;
+}
