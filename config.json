@@ -51,5 +51,20 @@
     "error": {
         "route": "error.ejs",
         "title": "Error!"
-    }
+    },
+    "scriptSrcUrls": [
+        "https://code.jquery.com/",
+        "https://maxcdn.bootstrapcdn.com/",
+        "https://cdnjs.cloudflare.com/",
+        "https://kit.fontawesome.com/"
+    ],
+    "styleSrcUrls": [
+        "https://cdnjs.cloudflare.com/"
+    ],
+    "connectSrcUrls": [
+        "https://ka-f.fontawesome.com/"
+    ],
+    "fontSrcUrls": [
+        "https://ka-f.fontawesome.com/"
+    ]
 }

@@ -5,6 +5,7 @@ const CONFIG = require('./config.json');
 const express = require('express');
 const ejsMate = require('ejs-mate');
 const path = require('path');
+const helmet = require('helmet');
 const app = express();
 const mainView = require('./controllers/mainView');
 const projectView = require('./controllers/projectView');
@@ -17,6 +18,24 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(__dirname + "/public"));
 app.use(express.json());
+
+// Security
+app.use(
+    helmet.contentSecurityPolicy({
+        directives: {
+            defaultSrc: [],
+            scriptSrc: ["'unsafe-inline'", "'self'", ...CONFIG.scriptSrcUrls],
+            styleSrc: ["'self'", "'unsafe-inline'", ...CONFIG.styleSrcUrls],
+            connectSrc: ["'self'", ...CONFIG.connectSrcUrls],
+            imgSrc: [
+                "'self'",
+                "blob:",
+                "data:"
+            ],
+            fontSrc: ["'self'", ...CONFIG.fontSrcUrls],
+        }
+    })
+);
 
 // Main Views
 app.get('/', mainView.home);
