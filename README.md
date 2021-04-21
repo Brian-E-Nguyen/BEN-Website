@@ -53,8 +53,8 @@ $ node app.js
 
 ## Licensing
 
-Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` p
-refix without my permission, as they are owned by me. All other directories and files are MIT Licensed.
+Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix 
+without my permission, as they are owned by me. All other directories and files are MIT Licensed.
 
 ## Images
 
