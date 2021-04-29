@@ -30,7 +30,8 @@ app.use(
             imgSrc: [
                 "'self'",
                 "blob:",
-                "data:"
+                "data:",
+                "https://www.google-analytics.com/g/"
             ],
             fontSrc: ["'self'", ...CONFIG.fontSrcUrls],
         }
