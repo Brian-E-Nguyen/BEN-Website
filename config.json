@@ -56,13 +56,15 @@
         "https://code.jquery.com/",
         "https://maxcdn.bootstrapcdn.com/",
         "https://cdnjs.cloudflare.com/",
-        "https://kit.fontawesome.com/"
+        "https://kit.fontawesome.com/",
+        "https://www.googletagmanager.com/gtag/"
     ],
     "styleSrcUrls": [
         "https://cdnjs.cloudflare.com/"
     ],
     "connectSrcUrls": [
-        "https://ka-f.fontawesome.com/"
+        "https://ka-f.fontawesome.com/",
+        "https://www.googletagmanager.com/gtag/"
     ],
     "fontSrcUrls": [
         "https://ka-f.fontawesome.com/"
