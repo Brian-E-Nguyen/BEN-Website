@@ -57,14 +57,16 @@
         "https://maxcdn.bootstrapcdn.com/",
         "https://cdnjs.cloudflare.com/",
         "https://kit.fontawesome.com/",
-        "https://www.googletagmanager.com/gtag/"
+        "https://www.googletagmanager.com/gtag/",
+        "https://www.google-analytics.com/"
     ],
     "styleSrcUrls": [
         "https://cdnjs.cloudflare.com/"
     ],
     "connectSrcUrls": [
         "https://ka-f.fontawesome.com/",
-        "https://www.googletagmanager.com/gtag/"
+        "https://www.googletagmanager.com/gtag/",
+        "https://www.google-analytics.com/"
     ],
     "fontSrcUrls": [
         "https://ka-f.fontawesome.com/"
