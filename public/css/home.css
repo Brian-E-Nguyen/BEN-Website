@@ -116,3 +116,9 @@ body {
         font-size: 2vw;
     }
 }
+
+.alert-dark {
+    background-color: black;
+    color: white;
+    border-color: gray;
+}
