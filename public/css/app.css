@@ -323,3 +323,15 @@ a#portfolio-github:hover {
     color: #0984e3;
     transition: 0.5s;
 }
+
+.policy-link {
+    color: white;
+    border-bottom: 1px dotted white;
+    transition: 0.5s;
+}
+
+.policy-link:hover {
+    color: #0984e3;
+    border-bottom: 1px dotted #0984e3;
+    transition: 0.5s;
+}
