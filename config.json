@@ -52,6 +52,10 @@
         "route": "error.ejs",
         "title": "Error!"
     },
+    "privacy": {
+        "route": "privacy-policy.ejs",
+        "title": "BEN | Privacy Policy"
+    },
     "scriptSrcUrls": [
         "https://code.jquery.com/",
         "https://maxcdn.bootstrapcdn.com/",
