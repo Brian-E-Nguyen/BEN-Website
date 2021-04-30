@@ -9,6 +9,7 @@ body {
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
     color: white;
+    background-attachment: fixed;
 }
 
 #main-content {
@@ -81,6 +82,29 @@ body {
     transition: 0.3s;
 }
 
+.alert-dark {
+    background-color: black;
+    color: white;
+    border-color: gray;
+}
+
+a#privacy-link {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (min-width: 0px) {
+    .alert-dark {
+        margin: 50px 5% 0;
+    }
+    #privacy-title {
+        font-size: 4vw;
+    }
+    #privacy-description, #privacy-link {
+        font-size: 3vw;
+    }
+}
+
 @media (min-width: 576px) {
     .navlink {
         font-size: 2.2vw;
@@ -90,6 +114,15 @@ body {
     }
     .description {
         font-size: 3vw;
+    }
+    .alert-dark {
+        margin: 50px 15% 0;
+    }
+    #privacy-title {
+        font-size: 2.75vw;
+    }
+    #privacy-description, #privacy-link {
+        font-size: 1.75vw;
     }
 }
 
@@ -103,6 +136,15 @@ body {
     .description {
         font-size: 2.5vw;
     }
+    .alert-dark {
+        margin: 50px 20% 0;
+    }
+    #privacy-title {
+        font-size: 2vw;
+    }
+    #privacy-description, #privacy-link {
+        font-size: 1.25vw;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -114,5 +156,14 @@ body {
     }
     .description {
         font-size: 2vw;
+    }
+    .alert-dark {
+        margin: 50px 35% 0;
+    }
+    #privacy-title {
+        font-size: 1.25vw;
+    }
+    #privacy-description, #privacy-link {
+        font-size: 1vw;
     }
 }

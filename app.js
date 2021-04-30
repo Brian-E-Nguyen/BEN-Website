@@ -10,6 +10,7 @@ const app = express();
 const mainView = require('./controllers/mainView');
 const projectView = require('./controllers/projectView');
 const errorView = require('./controllers/errorView');
+const privacyView = require('./controllers/privacyView');
 const PORT = process.env.PORT || CONFIG.localPort;
 
 // Middleware
@@ -55,6 +56,7 @@ app.get('/ee-381', projectView.ee381);
 app.get('/simd', projectView.simd);
 
 // Error Views
+app.get('/privacy-policy', privacyView.privacy);
 app.all('*', errorView.error);
 
 app.listen(PORT, () => {

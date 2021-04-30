@@ -11,11 +11,11 @@ My personal website / portfolio that showcases my programming & photography work
 1. Home / Landing
 2. About me
 3. Portfolio
-    * YelpCamp
-    * My Personal Website
-    * Senior Project: Kraken Bracket
-    * EE 381 - Probability and Stats
-    * SIMD Enhanced MIPS Instructions
+   - YelpCamp
+   - My Personal Website
+   - Senior Project: Kraken Bracket
+   - EE 381 - Probability and Stats
+   - SIMD Enhanced MIPS Instructions
 4. Resume
 5. Photography
 6. Contact
@@ -30,14 +30,16 @@ After I graduated in 2020, I wanted to finish the boot camp to gain more knowled
 
 ## Technologies Used
 
-* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - framework for building responsive, mobile-first sites
-* [Dotenv](https://www.npmjs.com/package/dotenv) - zero-dependency module that loads environment variables from a `.env` file into `process.env`
-* [Express](https://expressjs.com/) - fast, unopinionated, minimalist web framework for Node.js
-* [Embedded Javascript](https://ejs.co/) - simple templating language that generates HTML markup with plain JavaScript
-* [EJS Mate](https://github.com/JacksonTian/ejs-mate) - provides `layout`, `partial` and `block` template functions for the EJS template engine
-* [Fontawesome](https://fontawesome.com/) - vector icons and social logos
-* [Lightbox for Bootstrap](https://ashleydw.github.io/lightbox/) - lightbox module for Bootstrap that supports images, YouTube videos, and galleries
-* [Nodemailer](https://nodemailer.com/about/) - module for Node.js applications to allow easy email sending
+- [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - framework for building responsive, mobile-first sites
+- [Dotenv](https://www.npmjs.com/package/dotenv) - zero-dependency module that loads environment variables from a `.env` file into `process.env`
+- [Express](https://expressjs.com/) - fast, unopinionated, minimalist web framework for Node.js
+- [Embedded Javascript](https://ejs.co/) - simple templating language that generates HTML markup with plain JavaScript
+- [EJS Mate](https://github.com/JacksonTian/ejs-mate) - provides `layout`, `partial` and `block` template functions for the EJS template engine
+- [Fontawesome](https://fontawesome.com/) - vector icons and social logos
+- [Google Analytics](https://analytics.withgoogle.com/) - web analytics service offered by Google that tracks and reports website traffic
+- [Helmet](https://github.com/helmetjs/helmet) - secure Express apps by setting various HTTP headers
+- [Lightbox for Bootstrap](https://ashleydw.github.io/lightbox/) - lightbox module for Bootstrap that supports images, YouTube videos, and galleries
+- [Nodemailer](https://nodemailer.com/about/) - module for Node.js applications to allow easy email sending
 
 ## Installation / Usage
 
@@ -55,7 +57,7 @@ Then go to `localhost:3000` on your browser
 
 ## Licensing
 
-Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix 
+Feel free to inspect my code and reuse what is appropriate. You may not use any photos/icons that have the `BEN_` or `BEN-` prefix
 without my permission, as they are owned by me. All other directories and files are MIT Licensed (where applicable).
 
 ## Images

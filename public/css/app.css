@@ -150,7 +150,7 @@ div#end-footer {
     margin-bottom: 25px;
 }
 
-.project-description-sm {
+.project-description-sm, .privacy-description {
     font-size: 20px;
 }
 
@@ -321,5 +321,17 @@ a#portfolio-github {
 
 a#portfolio-github:hover {
     color: #0984e3;
+    transition: 0.5s;
+}
+
+.policy-link {
+    color: white;
+    border-bottom: 1px dotted white;
+    transition: 0.5s;
+}
+
+.policy-link:hover {
+    color: #0984e3;
+    border-bottom: 1px dotted #0984e3;
     transition: 0.5s;
 }
