@@ -56,6 +56,10 @@
         "route": "privacy-policy.ejs",
         "title": "BEN | Privacy Policy"
     },
+    "imageLinks": [
+        "https://res.cloudinary.com/buraiyen/image/upload/v1620240511/BEN_Website/photo-gallery/BEN_vegasstrip_bpmxcq.jpg",
+        "https://res.cloudinary.com/buraiyen/image/upload/v1620240511/BEN_Website/photo-gallery/BEN_vegasstrip_bpmxcq.jpg"
+    ],
     "scriptSrcUrls": [
         "https://code.jquery.com/",
         "https://maxcdn.bootstrapcdn.com/",

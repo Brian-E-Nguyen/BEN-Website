@@ -16,7 +16,7 @@ module.exports.resume = (req, res) => {
     res.render(main.resume.route, {title: main.resume.title})
 }
 module.exports.photography = (req, res) => {
-    res.render(main.photography.route, {title: main.photography.title})
+    res.render(main.photography.route, {title: main.photography.title, imageLinks: CONFIG.imageLinks})
 }
 module.exports.contact = (req, res) => {
     res.render(main.contact.route, {title: main.contact.title})
