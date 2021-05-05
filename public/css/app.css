@@ -16,23 +16,23 @@ a:hover {
 }
 
 #about-jumbo {
-    background-image: url('/img/jumbotron/BEN_weekofwelcome.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg');
 }
 
 #portfolio-jumbo {
-    background-image: url('/img/jumbotron/BEN_code.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240500/BEN_Website/jumbotron/BEN_code_hijtco.jpg');
 }
 
 #photography-jumbo {
-    background-image: url('/img/jumbotron/BEN_casino.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240502/BEN_Website/jumbotron/BEN_casino_gwmqob.jpg');
 }
 
 #resume-jumbo {
-    background-image: url('/img/jumbotron/BEN_sunsetstare.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240499/BEN_Website/jumbotron/BEN_sunsetstare_gk1hia.jpg');
 }
 
 #contact-jumbo {
-    background-image: url('/img/jumbotron/BEN_queenmary.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240504/BEN_Website/jumbotron/BEN_queenmary_o6yzqd.jpg');
 }
 
 .jumbo-text {
