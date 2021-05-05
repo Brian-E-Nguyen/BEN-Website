@@ -25,7 +25,7 @@ app.use(
     helmet.contentSecurityPolicy({
         directives: {
             defaultSrc: [],
-            scriptSrc: ["'unsafe-inline'", "'self'", ...CONFIG.scriptSrcUrls],
+            scriptSrc: ["'unsafe-inline'", "'unsafe-eval'", "'self'", ...CONFIG.scriptSrcUrls],
             styleSrc: ["'self'", "'unsafe-inline'", ...CONFIG.styleSrcUrls],
             connectSrc: ["'self'", ...CONFIG.connectSrcUrls],
             imgSrc: [
