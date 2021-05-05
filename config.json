@@ -56,7 +56,7 @@
         "route": "privacy-policy.ejs",
         "title": "BEN | Privacy Policy"
     },
-    "imageLinks": [
+    "photoGallery": [
         "https://res.cloudinary.com/buraiyen/image/upload/v1620240508/BEN_Website/photo-gallery/BEN_dogportait_y1asv3.jpg",
         "https://res.cloudinary.com/buraiyen/image/upload/v1620240506/BEN_Website/photo-gallery/BEN_longexposure_csjx44.jpg",
         "https://res.cloudinary.com/buraiyen/image/upload/v1620240506/BEN_Website/photo-gallery/BEN_lbsunportait_xno25t.jpg",
