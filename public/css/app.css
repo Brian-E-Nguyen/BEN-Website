@@ -236,6 +236,7 @@ div#end-footer {
     position: relative;
     overflow: hidden;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .btn-blue-dark:hover {
