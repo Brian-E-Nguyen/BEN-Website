@@ -74,5 +74,9 @@
     ],
     "fontSrcUrls": [
         "https://ka-f.fontawesome.com/"
+    ],
+    "imgSrcUrls": [
+        "https://www.google-analytics.com/g/",
+        "https://res.cloudinary.com/buraiyen/"
     ]
 }
