@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/img/BEN_lagunabeach.jpg");
+    url("https://res.cloudinary.com/buraiyen/image/upload/v1620240498/BEN_Website/BEN_lagunabeach_k9dv2n.jpg");
     /* prevents repeat image */
     background-size: cover;
     background-position: center;
