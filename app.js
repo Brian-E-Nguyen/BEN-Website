@@ -17,7 +17,9 @@ const PORT = process.env.PORT || CONFIG.localPort;
 app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/public", {
+    maxAge: '2hr'
+}));
 app.use(express.json());
 
 // Security

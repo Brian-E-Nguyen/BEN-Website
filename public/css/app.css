@@ -16,23 +16,23 @@ a:hover {
 }
 
 #about-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg');
 }
 
 #portfolio-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240500/BEN_Website/jumbotron/BEN_code_hijtco.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240500/BEN_Website/jumbotron/BEN_code_hijtco.jpg');
 }
 
 #photography-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240502/BEN_Website/jumbotron/BEN_casino_gwmqob.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240502/BEN_Website/jumbotron/BEN_casino_gwmqob.jpg');
 }
 
 #resume-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240499/BEN_Website/jumbotron/BEN_sunsetstare_gk1hia.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240499/BEN_Website/jumbotron/BEN_sunsetstare_gk1hia.jpg');
 }
 
 #contact-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240504/BEN_Website/jumbotron/BEN_queenmary_o6yzqd.jpg');
+    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240504/BEN_Website/jumbotron/BEN_queenmary_o6yzqd.jpg');
 }
 
 .jumbo-text {
@@ -43,7 +43,7 @@ a:hover {
 #parallax-1 {
     position: relative;
     min-height: 200px;
-    background: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg');
+    background: url('https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ a:hover {
 #parallax-2 {
     position: relative;
     min-height: 200px;
-    background: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240498/BEN_Website/BEN_vegasstrip_vk4nx7.jpg');
+    background: url('https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240498/BEN_Website/BEN_vegasstrip_vk4nx7.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
