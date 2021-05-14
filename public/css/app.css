@@ -43,7 +43,7 @@ a:hover {
 #parallax-1 {
     position: relative;
     min-height: 200px;
-    background: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg');
+    background: url('https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -53,7 +53,7 @@ a:hover {
 #parallax-2 {
     position: relative;
     min-height: 200px;
-    background: url('https://res.cloudinary.com/buraiyen/image/upload/v1620240498/BEN_Website/BEN_vegasstrip_vk4nx7.jpg');
+    background: url('https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240498/BEN_Website/BEN_vegasstrip_vk4nx7.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
