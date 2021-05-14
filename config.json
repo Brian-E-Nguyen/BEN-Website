@@ -79,7 +79,8 @@
         "https://www.google-analytics.com/"
     ],
     "styleSrcUrls": [
-        "https://cdnjs.cloudflare.com/"
+        "https://cdnjs.cloudflare.com/",
+        "https://maxcdn.bootstrapcdn.com/"
     ],
     "connectSrcUrls": [
         "https://ka-f.fontawesome.com/",
