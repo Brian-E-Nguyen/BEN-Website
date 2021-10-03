@@ -1,338 +1,357 @@
-h1, h2, h3, h4  {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* JUMBOTRON */
 .jumbotron {
-    padding: 15rem 10rem;
-    font-family: Lato;
-    color: white;
-    background: no-repeat center;
-    background-size: cover;
+  padding: 15rem 10rem;
+  font-family: Lato;
+  color: white;
+  background: no-repeat center;
+  background-size: cover;
+}
+
+#resume {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #about-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg');
+  background-image: url("https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240501/BEN_Website/jumbotron/BEN_weekofwelcome_dtbkcj.jpg");
 }
 
 #portfolio-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240500/BEN_Website/jumbotron/BEN_code_hijtco.jpg');
+  background-image: url("https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240500/BEN_Website/jumbotron/BEN_code_hijtco.jpg");
 }
 
 #photography-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240502/BEN_Website/jumbotron/BEN_casino_gwmqob.jpg');
+  background-image: url("https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240502/BEN_Website/jumbotron/BEN_casino_gwmqob.jpg");
 }
 
 #resume-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240499/BEN_Website/jumbotron/BEN_sunsetstare_gk1hia.jpg');
+  background-image: url("https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240499/BEN_Website/jumbotron/BEN_sunsetstare_gk1hia.jpg");
 }
 
 #contact-jumbo {
-    background-image: url('https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240504/BEN_Website/jumbotron/BEN_queenmary_o6yzqd.jpg');
+  background-image: url("https://res.cloudinary.com/buraiyen/image/upload/q_30/v1620240504/BEN_Website/jumbotron/BEN_queenmary_o6yzqd.jpg");
 }
 
 .jumbo-text {
-    text-shadow: 0.25rem 0.1rem 0.01rem rgba(0, 0, 0, 1);
+  text-shadow: 0.25rem 0.1rem 0.01rem rgba(0, 0, 0, 1);
 }
 
 /* PARALLAX SCROLLING */
 #parallax-1 {
-    position: relative;
-    min-height: 200px;
-    background: url('https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  position: relative;
+  min-height: 200px;
+  background: url("https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240515/BEN_Website/BEN_huntingtonbeach_ac9rzj.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 /* PARALLAX SCROLLING */
 #parallax-2 {
-    position: relative;
-    min-height: 200px;
-    background: url('https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240498/BEN_Website/BEN_vegasstrip_vk4nx7.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  position: relative;
+  min-height: 200px;
+  background: url("https://res.cloudinary.com/buraiyen/image/upload/q_auto:best/v1620240498/BEN_Website/BEN_vegasstrip_vk4nx7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 /* QUOTE */
 .blockquote {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 /* NAVBAR AND FOOTER */
 nav.bg-dark {
-    background-color: black !important;
+  background-color: black !important;
 }
 
 .nav-link {
-    transition: .5s;
-    font-size: 1.5em;
-    color: white !important;
+  transition: 0.5s;
+  font-size: 1.5em;
+  color: white !important;
 }
 
 .nav-link:hover {
-    transition: .5s;
-    color: #0984e3 !important;
+  transition: 0.5s;
+  color: #0984e3 !important;
 }
 
 div#end-footer {
-    background-color: rgb(27, 27, 27);
-    color: white;
-    text-align: center;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  text-align: center;
 }
 
 #footer-copyright {
-    background-color: black;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    color: rgb(197, 197, 197);
-    top: 50%;
-    font-size: 20px;
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: rgb(197, 197, 197);
+  top: 50%;
+  font-size: 20px;
 }
 
-.footer-link a{
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: .5s;
+.footer-link a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 .footer-link a:hover {
-    text-decoration: none;
-    color: #0984e3;
-    transition: .5s;
+  text-decoration: none;
+  color: #0984e3;
+  transition: 0.5s;
 }
 
 /* IMAGES */
 .rounded-image {
-    border-radius: 70%;
+  border-radius: 70%;
 }
 
 .project-image {
-    filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .gallery-image {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    transition: .5s ease;
-    filter: grayscale(100%);
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  transition: 0.5s ease;
+  filter: grayscale(100%);
 }
 
 .gallery-image:hover {
-    transition: .5s ease;
-    filter: grayscale(0%);
+  transition: 0.5s ease;
+  filter: grayscale(0%);
 }
 
 .image-text-centered {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-.block-spacer{
-    height: 150px;
+.block-spacer {
+  height: 150px;
 }
 
 /* PROJECTS */
 .project-title {
-    font-weight: 100;
-    margin-bottom: 25px;
+  font-weight: 100;
+  margin-bottom: 25px;
 }
 
-.project-description-sm, .privacy-description {
-    font-size: 20px;
+.project-description-sm,
+.privacy-description {
+  font-size: 20px;
 }
 
 .project-note-header {
-    font-weight: 400;
-    font-style: italic;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .next-project {
-    font-weight: 300;
-    color: rgba(0, 0, 0, 0.5);
-    text-align: center;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 .next-project a {
-    color: inherit;
-    text-decoration: none;
-    transition: 0.5s;
-    padding-bottom: .05em;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(0, 0, 0, 0.5);
+  color: inherit;
+  text-decoration: none;
+  transition: 0.5s;
+  padding-bottom: 0.05em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0, 0, 0, 0.5);
 }
 
 .next-project a:hover {
-    transition: .5s;
-    color: rgba(0, 0, 0);
+  transition: 0.5s;
+  color: rgba(0, 0, 0);
 }
 
 .footer-icon {
-    color: white;
-    transition: .5s;
+  color: white;
+  transition: 0.5s;
 }
 
 .footer-icon:hover {
-    transition: 0.5s;
-    color: #0984e3;
+  transition: 0.5s;
+  color: #0984e3;
 }
 
 .light {
-    border: 1px solid rgba(185, 185, 185, 0.5);
+  border: 1px solid rgba(185, 185, 185, 0.5);
 }
 
 #resume-right-side {
-    text-align: left;
+  text-align: left;
 }
 
 @media (min-width: 576px) {
-    #resume-right-side {
-        text-align: right;
-    }
+  #resume-right-side {
+    text-align: right;
+  }
 }
 
 /* BUTTONS */
 .btn-blue {
-    border: 1px solid #0984e3;
-    background: none;
-    padding: 10px 25px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: 0.3s;
-    position: relative;
-    overflow: hidden;
-    text-transform: uppercase;
-    font-weight: bold;
+  border: 1px solid #0984e3;
+  background: none;
+  padding: 10px 25px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .btn-blue:hover {
-    color: #0984e3;
-    background-color: #000000;
-    transition: 0.3s;
-    border-color: #000000;
+  color: #0984e3;
+  background-color: #000000;
+  transition: 0.3s;
+  border-color: #000000;
 }
 
 .btn-blue-dark {
-    color: white;
-    border: 1px solid #0984e3;
-    background: none;
-    padding: 10px 25px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: 0.3s;
-    position: relative;
-    overflow: hidden;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: white;
+  border: 1px solid #0984e3;
+  background: none;
+  padding: 10px 25px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .btn-blue-dark:hover {
-    color: white;
-    background-color: #0984e3;
-    transition: 0.3s;
+  color: white;
+  background-color: #0984e3;
+  transition: 0.3s;
 }
 
 .page-title {
-    text-align: center;
+  text-align: center;
 }
 
 .resume-block {
-    margin-top: 35px;
-    margin-bottom: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.resume-header {
+  text-transform: uppercase;
 }
 
 @media (min-width: 0px) {
-    .page-title, .project-title {
-        font-size: 10vw;
-    }
-    .project-description {
-        font-size: 1.75rem;
-    }
-    .sub-heading {
-        font-size: 4vw;
-    }
-    .jumbo-text {
-        font-size: 12.5vw;
-    }
-    .jumbo-text#photography-text {
-        font-size: 8vw;
-    }
+  .page-title,
+  .project-title {
+    font-size: 10vw;
+  }
+  .project-description {
+    font-size: 1.75rem;
+  }
+  .sub-heading {
+    font-size: 4vw;
+  }
+  .jumbo-text {
+    font-size: 12.5vw;
+  }
+  .jumbo-text#photography-text {
+    font-size: 8vw;
+  }
 }
 
 @media (min-width: 576px) {
-    .page-title, .project-title {
-        font-size: 6vw;
-    }
-    .project-description {
-        font-size: 3vw;
-    }
-    .sub-heading {
-        font-size: 3vw;
-    }
-    .jumbo-text, .jumbo-text#photography-text {
-        font-size: 8vw;
-        text-align: center;
-    }
+  .page-title,
+  .project-title {
+    font-size: 6vw;
+  }
+  .project-description {
+    font-size: 3vw;
+  }
+  .sub-heading {
+    font-size: 3vw;
+  }
+  .jumbo-text,
+  .jumbo-text#photography-text {
+    font-size: 8vw;
+    text-align: center;
+  }
 }
 @media (min-width: 992px) {
-    .page-title, .project-title {
-        font-size: 5vw;
-    }
-    .sub-heading {
-        font-size: 2vw;
-    }
-    .jumbo-text, .jumbo-text#photography-text {
-        font-size: 6vw;
-        text-align: left;
-    }
+  .page-title,
+  .project-title {
+    font-size: 5vw;
+  }
+  .sub-heading {
+    font-size: 2vw;
+  }
+  .jumbo-text,
+  .jumbo-text#photography-text {
+    font-size: 6vw;
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px) {
-    .page-title, .project-title {
-        font-size: 4vw;
-    }
-    .project-description {
-        font-size: 2vw;
-    }
-    .sub-heading {
-        font-size: 1.5vw;
-    }
-    .jumbo-text, .jumbo-text#photography-text {
-        font-size: 5.5vw;
-    }
+  .page-title,
+  .project-title {
+    font-size: 4vw;
+  }
+  .project-description {
+    font-size: 2vw;
+  }
+  .sub-heading {
+    font-size: 1.5vw;
+  }
+  .jumbo-text,
+  .jumbo-text#photography-text {
+    font-size: 5.5vw;
+  }
 }
 
 a#portfolio-github {
-    color: black;
-    transition: 0.5s;
+  color: black;
+  transition: 0.5s;
 }
 
 a#portfolio-github:hover {
-    color: #0984e3;
-    transition: 0.5s;
+  color: #0984e3;
+  transition: 0.5s;
 }
 
 .policy-link {
-    color: white;
-    border-bottom: 1px dotted white;
-    transition: 0.5s;
+  color: white;
+  border-bottom: 1px dotted white;
+  transition: 0.5s;
 }
 
 .policy-link:hover {
-    color: #0984e3;
-    border-bottom: 1px dotted #0984e3;
-    transition: 0.5s;
+  color: #0984e3;
+  border-bottom: 1px dotted #0984e3;
+  transition: 0.5s;
 }
