@@ -1,97 +1,95 @@
 {
-    "localPort": 3000,
-    "main": {
-        "home": {
-            "route": "main/home.ejs",
-            "title": "Brian E. Nguyen"
-        },
-        "about": {
-            "route": "main/about.ejs",
-            "title": "BEN | About Me"
-        },
-        "portfolio": {
-            "route": "main/portfolio.ejs",
-            "title": "BEN | Portfolio"
-        },
-        "resume": {
-            "route": "main/resume.ejs",
-            "title": "BEN | Resume"
-        },
-        "photography": {
-            "route": "main/photography.ejs",
-            "title": "BEN | Photography"
-        },
-        "contact": {
-            "route": "main/contact.ejs",
-            "title": "BEN | Contact"
-        }
+  "localPort": 3000,
+  "main": {
+    "home": {
+      "route": "main/home.ejs",
+      "title": "Brian E. Nguyen"
     },
-    "project": {
-        "yelpcamp": {
-            "route": "projects/yelpcamp.ejs",
-            "title": "BEN | YelpCamp"
-        },
-        "personalwebsite": {
-            "route": "projects/personal-website.ejs",
-            "title": "BEN | My Website"
-        },
-        "krakenbracket": {
-            "route": "projects/kraken-bracket.ejs",
-            "title": "BEN | Kraken Bracket"
-        },
-        "ee381": {
-            "route": "projects/ee-381.ejs",
-            "title": "BEN | EE-381"
-        },
-        "simd": {
-            "route": "projects/simd.ejs",
-            "title": "BEN | SIMD"
-        }
+    "about": {
+      "route": "main/about.ejs",
+      "title": "BEN | About Me"
     },
-    "error": {
-        "route": "error.ejs",
-        "title": "Error!"
+    "portfolio": {
+      "route": "main/portfolio.ejs",
+      "title": "BEN | Portfolio"
     },
-    "privacy": {
-        "route": "privacy-policy.ejs",
-        "title": "BEN | Privacy Policy"
+    "resume": {
+      "route": "main/resume.ejs",
+      "title": "BEN | Resume"
     },
-    "photoGallery": [
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240508/BEN_Website/photo-gallery/BEN_dogportait_y1asv3.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240506/BEN_Website/photo-gallery/BEN_longexposure_csjx44.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240506/BEN_Website/photo-gallery/BEN_lbsunportait_xno25t.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240504/BEN_Website/photo-gallery/BEN_lblights_qtdq5y.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240506/BEN_Website/photo-gallery/BEN_lbnightporait_p2sscc.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240503/BEN_Website/photo-gallery/BEN_hbsunportait_p6myx7.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240500/BEN_Website/photo-gallery/BEN_blackandwhite_wztr7k.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240509/BEN_Website/photo-gallery/BEN_vegassign_lmdojq.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240504/BEN_Website/photo-gallery/BEN_casino_hxvyup.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240511/BEN_Website/photo-gallery/BEN_vegasstrip_bpmxcq.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240510/BEN_Website/photo-gallery/BEN_magicmountain_sphz44.jpg",
-        "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240502/BEN_Website/photo-gallery/BEN_fireworks_ng5nch.jpg"
-    ],
-    "scriptSrcUrls": [
-        "https://code.jquery.com/",
-        "https://maxcdn.bootstrapcdn.com/",
-        "https://cdnjs.cloudflare.com/",
-        "https://kit.fontawesome.com/",
-        "https://www.googletagmanager.com/gtag/",
-        "https://www.google-analytics.com/"
-    ],
-    "styleSrcUrls": [
-        "https://cdnjs.cloudflare.com/",
-        "https://maxcdn.bootstrapcdn.com/"
-    ],
-    "connectSrcUrls": [
-        "https://ka-f.fontawesome.com/",
-        "https://www.googletagmanager.com/gtag/",
-        "https://www.google-analytics.com/"
-    ],
-    "fontSrcUrls": [
-        "https://ka-f.fontawesome.com/"
-    ],
-    "imgSrcUrls": [
-        "https://www.google-analytics.com/g/",
-        "https://res.cloudinary.com/buraiyen/"
-    ]
+    "photography": {
+      "route": "main/photography.ejs",
+      "title": "BEN | Photography"
+    },
+    "contact": {
+      "route": "main/contact.ejs",
+      "title": "BEN | Contact"
+    }
+  },
+  "project": {
+    "yelpcamp": {
+      "route": "projects/yelpcamp.ejs",
+      "title": "BEN | YelpCamp"
+    },
+    "personalwebsite": {
+      "route": "projects/personal-website.ejs",
+      "title": "BEN | My Website"
+    },
+    "krakenbracket": {
+      "route": "projects/kraken-bracket.ejs",
+      "title": "BEN | Kraken Bracket"
+    },
+    "ee381": {
+      "route": "projects/ee-381.ejs",
+      "title": "BEN | EE-381"
+    },
+    "simd": {
+      "route": "projects/simd.ejs",
+      "title": "BEN | SIMD"
+    }
+  },
+  "error": {
+    "route": "error.ejs",
+    "title": "404"
+  },
+  "privacy": {
+    "route": "privacy-policy.ejs",
+    "title": "BEN | Privacy Policy"
+  },
+  "photoGallery": [
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240508/BEN_Website/photo-gallery/BEN_dogportait_y1asv3.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240506/BEN_Website/photo-gallery/BEN_longexposure_csjx44.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240506/BEN_Website/photo-gallery/BEN_lbsunportait_xno25t.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240504/BEN_Website/photo-gallery/BEN_lblights_qtdq5y.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240506/BEN_Website/photo-gallery/BEN_lbnightporait_p2sscc.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240503/BEN_Website/photo-gallery/BEN_hbsunportait_p6myx7.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240500/BEN_Website/photo-gallery/BEN_blackandwhite_wztr7k.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240509/BEN_Website/photo-gallery/BEN_vegassign_lmdojq.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240504/BEN_Website/photo-gallery/BEN_casino_hxvyup.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240511/BEN_Website/photo-gallery/BEN_vegasstrip_bpmxcq.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240510/BEN_Website/photo-gallery/BEN_magicmountain_sphz44.jpg",
+    "https://res.cloudinary.com/buraiyen/image/upload/q_50/v1620240502/BEN_Website/photo-gallery/BEN_fireworks_ng5nch.jpg"
+  ],
+  "scriptSrcUrls": [
+    "https://code.jquery.com/",
+    "https://maxcdn.bootstrapcdn.com/",
+    "https://cdnjs.cloudflare.com/",
+    "https://kit.fontawesome.com/",
+    "https://www.googletagmanager.com/gtag/",
+    "https://www.google-analytics.com/"
+  ],
+  "styleSrcUrls": [
+    "https://cdnjs.cloudflare.com/",
+    "https://maxcdn.bootstrapcdn.com/"
+  ],
+  "connectSrcUrls": [
+    "https://ka-f.fontawesome.com/",
+    "https://www.googletagmanager.com/gtag/",
+    "https://www.google-analytics.com/"
+  ],
+  "fontSrcUrls": ["https://ka-f.fontawesome.com/"],
+  "imgSrcUrls": [
+    "https://www.google-analytics.com/g/",
+    "https://res.cloudinary.com/buraiyen/"
+  ]
 }
