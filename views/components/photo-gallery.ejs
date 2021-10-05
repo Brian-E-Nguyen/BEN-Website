@@ -1,16 +1,17 @@
 <!-- Photo Gallery -->
 <div class="text-center container">
-    <h1 class="page-title">Photo Gallery</h1>
-    <h3>Some recent photos in my life</h3>
-    <div class="row">
-        <% imageLinks.forEach((image) => { %>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <a href="<%= image %>" data-toggle="lightbox" data-gallery="img-gallery">
-                    <img src="<%= image %>" class="img-fluid gallery-image img-thumbnail my-2">
-                </a>
-            </div>
-        <%  }); %>
+  <h1>Photo Gallery</h1>
+  <h3>Some recent photos in my life</h3>
+  <div class="row">
+    <% imageLinks.forEach((image) => { %>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <a href="<%= image %>" data-toggle="lightbox" data-gallery="img-gallery">
+        <img
+          src="<%= image %>"
+          class="img-fluid gallery-image img-thumbnail my-2"
+        />
+      </a>
     </div>
+    <% }); %>
+  </div>
 </div>
-
-
