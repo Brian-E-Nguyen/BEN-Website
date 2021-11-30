@@ -1,5 +1,5 @@
-if(process.env.NODE_ENV !== 'production') {
-    require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
 }
 const CONFIG = require('./config.json');
 const express = require('express');
@@ -17,28 +17,30 @@ const PORT = process.env.PORT || CONFIG.localPort;
 app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-app.use(express.static(__dirname + "/public", {
-    maxAge: '2hr'
-}));
+app.use(
+  express.static(__dirname + '/public', {
+    maxAge: '2hr',
+  })
+);
 app.use(express.json());
 
 // Security
 app.use(
-    helmet.contentSecurityPolicy({
-        directives: {
-            defaultSrc: [],
-            scriptSrc: ["'unsafe-inline'", "'unsafe-eval'", "'self'", ...CONFIG.scriptSrcUrls],
-            styleSrc: ["'self'", "'unsafe-inline'", ...CONFIG.styleSrcUrls],
-            connectSrc: ["'self'", ...CONFIG.connectSrcUrls],
-            imgSrc: [
-                "'self'",
-                "blob:",
-                "data:",
-                ...CONFIG.imgSrcUrls
-            ],
-            fontSrc: ["'self'", ...CONFIG.fontSrcUrls],
-        }
-    })
+  helmet.contentSecurityPolicy({
+    directives: {
+      defaultSrc: [],
+      scriptSrc: [
+        "'unsafe-inline'",
+        "'unsafe-eval'",
+        "'self'",
+        ...CONFIG.scriptSrcUrls,
+      ],
+      styleSrc: ["'self'", "'unsafe-inline'", ...CONFIG.styleSrcUrls],
+      connectSrc: ["'self'", ...CONFIG.connectSrcUrls],
+      imgSrc: ["'self'", 'blob:', 'data:', ...CONFIG.imgSrcUrls],
+      fontSrc: ["'self'", ...CONFIG.fontSrcUrls],
+    },
+  })
 );
 
 // Main Views
@@ -48,9 +50,10 @@ app.get('/portfolio', mainView.portfolio);
 app.get('/resume', mainView.resume);
 app.get('/photography', mainView.photography);
 app.get('/contact', mainView.contact);
-app.post('/contact', mainView.contactFormPost)
+app.post('/contact', mainView.contactFormPost);
 
 // Project Views
+app.get('/csulbtc', projectView.csulbtc);
 app.get('/yelpcamp', projectView.yelpcamp);
 app.get('/personal-website', projectView.personalwebsite);
 app.get('/kraken-bracket', projectView.krakenbracket);
@@ -62,5 +65,5 @@ app.get('/privacy-policy', privacyView.privacy);
 app.all('*', errorView.error);
 
 app.listen(PORT, () => {
-    console.log(`SERVER STARTED ON PORT ${PORT}`);
+  console.log(`SERVER STARTED ON PORT ${PORT}`);
 });
