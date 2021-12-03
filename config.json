@@ -27,6 +27,10 @@
     }
   },
   "project": {
+    "csulbtc": {
+      "route": "projects/csulbtc.ejs",
+      "title": "BEN | CSULB TC"
+    },
     "yelpcamp": {
       "route": "projects/yelpcamp.ejs",
       "title": "BEN | YelpCamp"
