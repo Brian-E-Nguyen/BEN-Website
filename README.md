@@ -1,5 +1,9 @@
 # BEN Website
 
+## IMPORTANT INFORMATION
+
+As of January 2022, this version of my website is officially retired. The repository of my redesigned and redeveloped site can be found at this [link](https://github.com/Brian-E-Nguyen/BEN-Website-React)
+
 ## Introduction
 
 [Link to website (brianenguyen.com)](https://www.brianenguyen.com)
